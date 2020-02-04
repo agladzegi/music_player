@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="author" content="Giorgi Agladze">
+  <script src="https://kit.fontawesome.com/a502b53187.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="main.css">
+  <title>Music Player</title>
+</head>
+<body>
+  <div class="container">
+    <div class="music-player">
+      <div class="cover">
+        <img src="" alt="" id="cover-img">
+      </div>
+      <div class="title">
+        <h1 id="title"></h1>
+      </div>
+      <div class="navigation">
+        <div class="buttons">
+          <button id="prev"><i class="fas fa-step-backward"></i></button>
+          <button id="play"><i class="fas fa-play"></i></button>
+          <button id="next"><i class="fas fa-step-forward"></i></button>
+        </div>
+        <div class="volume">
+          <button id="volume-btn"><i class="fas fa-volume-up"></i></button>
+          <div id="volume-container">
+            <div id="volume" style="width: 50%;"></div>
+          </div>
+        </div>
+      </div>
+      <div class="times">
+        <p id="start-time"></p>
+        <p id="end-time"></p>
+      </div>
+      <div id="progress-container">
+        <audio src="" id="audio"></audio>
+        <div id="progress"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
